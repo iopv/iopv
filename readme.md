@@ -24,7 +24,7 @@ There are two types of folders in this repo: 1) folders for **Code**: `R-script`
             The folder includes scripts and data used to collect performance data of interactions of configuration options in project Hadoop
 - **Data and Results**
     1. cassandra
-        - `X-label.csv`  <br />
+        - `X-label.csv`  (X refers to cpu, ioread, iowrite, mem, runtime)<br />
             Five performance metrics measurement data with statistical analysis, used in RQ1 and RQ2
         - `metric.csv` <br />
             The extracted metrics used to build models in RQ1 and RQ2           
