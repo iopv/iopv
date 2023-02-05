@@ -1,3 +1,4 @@
 *.out filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
 cassandra/data/RQ2/*.csv !filter !diff !merge -text
+hadoop/data/RQ2/*.csv !filter !diff !merge -text
